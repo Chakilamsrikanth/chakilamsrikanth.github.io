@@ -66,11 +66,3 @@ let myDate = document.querySelector("#datee");
 const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
 
-// <!-- typed js effect starts -->
-var typed = new Typed(".typing-text", {
-  strings: ["Developer", "Engineer", "Designer", "Creative"],
-  loop: true,
-  typeSpeed: 50,
-  backSpeed: 25,
-  backDelay: 500,
-});

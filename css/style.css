@@ -52,7 +52,10 @@ html {
 /* Reset default styling */
 * {
   margin: 0;
-  padding: 0;
+  padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
   box-sizing: border-box;
 }
 
@@ -143,10 +146,14 @@ body {
 }
 
 .profile-image {
-  width: 250px;
-  border-radius: 80%;
-  animation: bounce 1s infinite alternate;
+  width: 350px;
+    margin-top: 75px;
+    margin-right: 1px;
+    margin-bottom: 0px;
+    margin-left: 130px;
+    animation: bounce 1s infinite alternate;
 }
+
 
 
 .image-container {
@@ -389,8 +396,13 @@ body {
   }
 
   .header-container .btn {
-    border-radius: 5px;
+    border-radius: 1px;
     width: 80%;
   }
 }
 
+.bulb {
+  position: absolute;
+    bottom: -130px;
+    right: 10px;
+ }
