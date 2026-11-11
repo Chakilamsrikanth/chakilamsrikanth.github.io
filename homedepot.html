@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5f3" />
+    <title>The Home Depot experience | Srikanth Chakilam</title>
+    <meta
+      name="description"
+      content="Explore Srikanth Chakilam’s software engineering experience, development projects, and visual design. Currently at Oracle in California."
+    />
+    <meta
+      property="og:title"
+      content="The Home Depot experience | Srikanth Chakilam"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://chakilamsrikanth.github.io/homedepot.html"
+    />
+    <meta
+      property="og:image"
+      content="https://chakilamsrikanth.github.io/assets/social.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/brand-avatar.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  <link rel="stylesheet" href="experience.css">
+</head>
+  <body class="experience-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="Srikanth Chakilam home"
+        ><img
+          src="assets/brand-avatar.png"
+          alt=""
+          width="48"
+          height="48"
+        /><span>Srikanth<span class="brand-dot">.</span></span></a
+      >
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a
+        ><a href="services.html" aria-current="page">Professional experience</a
+        ><a href="portfolio.html">Portfolio</a
+        ><a href="contact.html">Contact</a>
+      </nav>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/srikanth-chakilam-647a8a1b4/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          ><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path
+              d="M5.4 3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8ZM3.5 9h3.8v12H3.5V9Zm6.2 0h3.6v1.7h.1c.5-.9 1.7-2 3.6-2 3.8 0 4.5 2.5 4.5 5.7V21h-3.8v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v6H9.7V9Z"
+            /></svg></a
+        ><a
+          href="https://github.com/Chakilamsrikanth"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.64-1.33-2.22-.26-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.58 9.58 0 0 1 5 0c1.9-1.3 2.74-1.03 2.74-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.69-4.58 4.94.36.31.68.92.68 1.85v2.59c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+            /></svg
+        ></a>
+      </div>
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-controls="main-nav"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+    <main id="main">
+      <section class="page-width page-section role-page">
+        <a class="breadcrumb" href="services.html"
+          >← All professional experience</a
+        >
+        <div class="role-hero">
+          <div>
+            <p class="eyebrow">Jan 2021 — Jun 2021</p>
+            <h1>The Home Depot<span>.</span></h1>
+            <h2>Associate Software Engineer</h2>
+            <p class="muted">San Mateo, CA</p>
+          </div>
+          <div class="role-emblem homedepot" aria-hidden="true">HD</div>
+        </div>
+        <p class="role-lead">Building Python services and retail reporting workflows, with Flask, cloud operations, and machine learning based forecasting.</p>
+        <div class="role-body"><section class="experience-story" aria-label="My work"><h2>My work</h2><p>At The Home Depot, my main focus was Python backend development. I built modular Flask services and REST endpoints, working on request validation, database access, and the separation of application logic. The goal was to make the backend easier to maintain while improving the reliability and response time of the workflows it supported.</p><p>I also worked on a Python and Oracle SQL application for operational reporting and sales forecasting. Scheduled jobs produced system availability reports, while machine learning supported the forecasting side. This connected the backend work to practical retail questions: whether systems were available and how historical sales information could support planning.</p><p>For deployment and reliability, I worked with Python services on GCP Compute Engine, together with Cloud Load Balancing, Logging, and Monitoring. I used test driven development and automated checks to validate changes, and wrote Bash scripts to help with deployments and log analysis. Agile planning and Jira helped keep that work connected to the wider team’s delivery process.</p><p>Security was part of the infrastructure work too. I configured SSL/TLS with OpenSSL and worked on VPC rules for Kafka clients and SQL databases so communication could be encrypted and access controlled. These changes supported the services rather than being treated as a separate final step.</p><p>Although Python was the center of my role, I also contributed to AngularJS and React interfaces using HTML, CSS, JavaScript, jQuery, TypeScript, and JSX. My earlier portfolio showed retail screens around purchase orders and shipment information, as well as work involving Java services, SQL data, and cloud migration. I have kept that walkthrough below to show the interface side of the work alongside the Python focused account here.</p><p class="experience-stack"><strong>Working with:</strong> Python, Flask, Oracle SQL, REST APIs, scheduled reporting, machine learning forecasting, Bash, automated testing, GCP Compute Engine, Cloud Load Balancing, Logging, Monitoring, OpenSSL, VPC networking, Kafka, AngularJS, React, and TypeScript.</p></section></div>
+        <section class="detail-section">
+          <h2>Screens and walkthroughs</h2>
+          <div class="video-block">
+            <h3>Application walkthrough</h3>
+            <video controls preload="none" playsinline poster="assets/homedepot-demo-poster.jpg">
+              <source src="assets/homedepot-demo.mp4" type="video/mp4" />
+              Your browser does not support this video.
+              <a href="assets/homedepot-demo.mp4">Download the walkthrough</a>.
+            </video>
+          </div>
+        </section>
+        <a class="next-role" href="oracle.html"
+          ><span>CONTINUE MY JOURNEY</span><strong>Oracle</strong
+          ><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M5 19 19 5M5 5h14v14"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg
+        ></a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>
+        Designed & built with curiosity.
+        <span>© <span id="year">2026</span> Srikanth Chakilam</span>
+      </p>
+      <a href="resume.html" class="text-link"
+        >View resume
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M5 19 19 5M5 5h14v14"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          /></svg
+      ></a>
+    </footer>
+    <dialog class="image-dialog" id="image-dialog">
+      <button class="dialog-close" aria-label="Close preview">×</button>
+      <div class="gallery-stage">
+        <button class="gallery-prev" aria-label="Previous image">←</button
+        ><img id="dialog-image" alt="Selected portfolio image" /><button
+          class="gallery-next"
+          aria-label="Next image"
+        >
+          →
+        </button>
+      </div>
+      <p id="dialog-caption"></p>
+    </dialog>
+  </body>
+</html>

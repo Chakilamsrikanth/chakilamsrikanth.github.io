@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5f3" />
+    <title>GEICO experience | Srikanth Chakilam</title>
+    <meta
+      name="description"
+      content="Explore Srikanth Chakilam’s software engineering experience, development projects, and visual design. Currently at Oracle in California."
+    />
+    <meta property="og:title" content="GEICO experience | Srikanth Chakilam" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://chakilamsrikanth.github.io/geico.html"
+    />
+    <meta
+      property="og:image"
+      content="https://chakilamsrikanth.github.io/assets/social.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/brand-avatar.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  <link rel="stylesheet" href="experience.css">
+</head>
+  <body class="experience-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="Srikanth Chakilam home"
+        ><img
+          src="assets/brand-avatar.png"
+          alt=""
+          width="48"
+          height="48"
+        /><span>Srikanth<span class="brand-dot">.</span></span></a
+      >
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a
+        ><a href="services.html" aria-current="page">Professional experience</a
+        ><a href="portfolio.html">Portfolio</a
+        ><a href="contact.html">Contact</a>
+      </nav>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/srikanth-chakilam-647a8a1b4/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          ><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path
+              d="M5.4 3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8ZM3.5 9h3.8v12H3.5V9Zm6.2 0h3.6v1.7h.1c.5-.9 1.7-2 3.6-2 3.8 0 4.5 2.5 4.5 5.7V21h-3.8v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v6H9.7V9Z"
+            /></svg></a
+        ><a
+          href="https://github.com/Chakilamsrikanth"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          ><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.64-1.33-2.22-.26-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.58 9.58 0 0 1 5 0c1.9-1.3 2.74-1.03 2.74-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.69-4.58 4.94.36.31.68.92.68 1.85v2.59c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+            /></svg
+        ></a>
+      </div>
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-controls="main-nav"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+    <main id="main">
+      <section class="page-width page-section role-page">
+        <a class="breadcrumb" href="services.html"
+          >← All professional experience</a
+        >
+        <div class="role-hero">
+          <div>
+            <p class="eyebrow">Jan 2025 — Dec 2025</p>
+            <h1>GEICO<span>.</span></h1>
+            <h2>Software Engineer III</h2>
+            <p class="muted">Austin, TX</p>
+          </div>
+          <div class="role-emblem geico" aria-hidden="true">G</div>
+        </div>
+        <p class="role-lead">Modernizing policy and claims services with Go and Azure, while integrating LLM search, retrieval, and agent workflows.</p>
+        <div class="role-body"><section class="experience-story" aria-label="My work"><h2>My work</h2><p>At GEICO, I worked on the services behind insurance policy management and claims automation. A large part of the work was moving functionality out of legacy Java applications into smaller Go services, while keeping the connections to existing systems working. We deployed those services in containers on Azure Kubernetes Service and used PostgreSQL for application data and Kafka for asynchronous communication.</p><p>I also worked on LLM powered search and policy lookup, including retrieval augmented generation and agent workflows. The aim was to make relevant policy information easier to find through the application. My role involved integrating those capabilities with backend APIs and connecting the AI interaction to the Go services and Azure infrastructure supporting the platform.</p><p>For that AI work, the supporting application flow mattered as much as the model interaction. I worked on secure ways for requests to reach backend services and on how retrieved information moved through the search and lookup experience. RAG and agent workflows brought together information retrieval and service integration, rather than sitting apart from the rest of the product.</p><p>On the service side, I built REST APIs using Go’s goroutines, channels, and middleware patterns. Azure API Management supported token based access, while Kafka topics carried events and supported log aggregation across services. I tuned PostgreSQL access through GORM and used Azure Functions to automate event driven steps in the backend workflow.</p><p>I also helped make the platform easier to operate. Grafana dashboards brought together Prometheus metrics and Loki logs so the team could follow latency, throughput, failures, and application health. Delivery and infrastructure work included Azure DevOps pipelines, App Services, Functions, and PostgreSQL. Those operational pieces were important for understanding how both the core APIs and the newer AI features behaved after deployment.</p><p class="experience-stack"><strong>Working with:</strong> Go, goroutines and channels, Azure AKS, Azure API Management, App Services, Functions, Azure DevOps, PostgreSQL, GORM, Kafka, Grafana, Prometheus, Loki, LLM integration, RAG, and agent workflows.</p></section></div>
+        <section class="detail-section"><h2>Illustrative work concepts</h2><p class="muted">These generated interface concepts explain the kinds of workflows discussed above. They use synthetic data and are not screenshots of employer systems.</p><figure class="concept-figure"><button class="concept-preview" data-image="assets/geico-policy-concept.png" data-caption="Illustrative concept: Policy search workspace" aria-label="Enlarge illustrative policy search workspace"><img src="assets/geico-policy-concept.png" alt="Illustrative concept, not an employer screenshot: Policy search workspace" loading="lazy" width="1672" height="941"></button><figcaption><strong>Policy search workspace.</strong> An illustrative view of LLM assisted policy lookup, retrieved source material, and backend service activity. Generated concept; synthetic data.</figcaption></figure></section><a class="next-role" href="schwab.html"
+          ><span>CONTINUE MY JOURNEY</span><strong>Charles Schwab</strong
+          ><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M5 19 19 5M5 5h14v14"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg
+        ></a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>
+        Designed & built with curiosity.
+        <span>© <span id="year">2026</span> Srikanth Chakilam</span>
+      </p>
+      <a href="resume.html" class="text-link"
+        >View resume
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M5 19 19 5M5 5h14v14"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          /></svg
+      ></a>
+    </footer>
+    <dialog class="image-dialog" id="image-dialog">
+      <button class="dialog-close" aria-label="Close preview">×</button>
+      <div class="gallery-stage">
+        <button class="gallery-prev" aria-label="Previous image">←</button
+        ><img id="dialog-image" alt="Selected portfolio image" /><button
+          class="gallery-next"
+          aria-label="Next image"
+        >
+          →
+        </button>
+      </div>
+      <p id="dialog-caption"></p>
+    </dialog>
+  </body>
+</html>
